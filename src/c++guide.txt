@@ -1,0 +1,27 @@
+// Structures
+union
+struct
+class
+
+// Namespaces
+namespace
+
+// Constructors/Initializer lists
+std::array<int, 3>{123, 123, 123};
+
+// Arrays
+int test[] = {};
+
+// Conditionals
+switch
+if
+else if
+else
+
+// Functions
+void Foo()
+
+// Loops
+while
+for
+do {} while

@@ -1,0 +1,24 @@
+{
+  "name": "end-comments",
+  "version": "0.0.1",
+  "scripts": {
+    "compile": "tsc -p ./"
+  },
+  "main": "./build/extension.js",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "EndComments.CommentCurrent",
+        "title": "Add end comments in current file"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/vscode": "1.125.0",
+    "@types/node": "26.1.2",
+    "typescript": "7.0.2"
+  }
+}
