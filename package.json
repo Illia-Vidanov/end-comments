@@ -13,7 +13,11 @@
     "commands": [
       {
         "command": "EndComments.CommentCurrent",
-        "title": "Add end comments in current file"
+        "title": "End Comments: Add end comments in current file"
+      },
+      {
+        "command": "EndComments.ViewLogs",
+        "title": "End Comments: View Logs"
       }
     ]
   },

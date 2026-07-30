@@ -1,39 +1,32 @@
-export class Stack<T>
-{
+export class Stack<T> {
   private data: T[] = [];
 
-  push(...items: T[]): void
-  {
+  push(...items: T[]): void {
     items.forEach(element => {
       this.data.push(element);
     });
   }
 
-  pop(): void
-  {
+  pop(): void {
     this.data.pop();
   }
 
-  top(): T
-  {
+  top(): T {
     return this.data[this.data.length - 1];
   }
 
   // Get top and pop
-  extract(): T
-  {
+  extract(): T {
     const temp = this.top();
     this.pop();
     return temp;
   }
 
-  size(): number
-  {
+  size(): number {
     return this.data.length;
   }
 
-  empty(): boolean
-  {
+  empty(): boolean {
     return this.data.length == 0;
   }
 }
