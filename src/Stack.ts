@@ -4,7 +4,9 @@ export class Stack<T>
 
   push(...items: T[]): void
   {
-    this.data.push(items);
+    items.forEach(element => {
+      this.data.push(element);
+    });
   }
 
   pop(): void

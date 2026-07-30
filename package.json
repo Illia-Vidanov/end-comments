@@ -2,7 +2,8 @@
   "name": "end-comments",
   "version": "0.0.1",
   "scripts": {
-    "compile": "tsc -p ./"
+    "compile": "tsc -p ./",
+    "test": "vitest --config ./vitest.config.ts"
   },
   "main": "./build/extension.js",
   "engines": {
@@ -17,8 +18,9 @@
     ]
   },
   "devDependencies": {
-    "@types/vscode": "1.125.0",
     "@types/node": "26.1.2",
-    "typescript": "7.0.2"
+    "@types/vscode": "1.125.0",
+    "typescript": "7.0.2",
+    "vitest": "^4.1.10"
   }
 }
